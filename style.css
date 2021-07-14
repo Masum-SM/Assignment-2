@@ -1,0 +1,277 @@
+
+/*-------------- Google font popins-------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ----------------------header -----------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #2D25A0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    margin-bottom: 43px;
+   
+}
+
+.full-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-column-gap: 102px; */
+    margin-top: 49px;
+    margin-bottom: 114px;
+}
+
+.head-left{
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; */
+    margin-left: 156px;
+}
+
+.head-title{
+    width: 485px;
+    margin-right: 102px;
+    margin-bottom: 27px;
+}
+  
+.head-title h1{
+    font-size: 64px;
+    color: #ffffff;
+}
+.thead-thumbnial img{
+    width: 556px;
+}
+
+.button{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 168px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    margin-top: 0;
+}
+.head-button{
+    font-size: 16px;
+  
+    color: #ffffff;
+    background-color: #E02C6D;
+    /* border: none; */
+}
+.button .button-arrow {
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+
+/* ------------main--------------- */
+
+/* -----------------------all-player----------- */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.all-plyars{
+    
+    width: 1150px;
+    margin-top: 27px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+.player{
+    width: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plyaer-thumbnail img{
+    width: 300px;
+    margin: 15px;
+}
+
+.player-info {
+    /* margin-top: 16px;
+    margin-bottom: 33px;
+    margin-left: 15px; */
+    margin:16px 15px 33px 15px ;
+}
+.player-name{
+    font-size: 28px;
+    margin-bottom: 10px;
+
+}
+.player-details{
+    font-size: 16px;
+
+}
+
+/*------- footer section -----*/
+
+footer{
+
+    margin-bottom: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-section{
+    
+    width: 1050px ;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-image img{
+    width: 484px;
+    
+}
+.footer-icon{
+    margin: 20px 0;
+}
+
+.footer-icon .fab{
+    font-size: 17px;
+    color: #969BAB;
+    margin-left: 14px;
+    background-color:#c5c5c5 ;
+    border-radius: 50%;
+    padding: 5px;
+ 
+}
+.footer-info{
+    font-size: 18px;
+}
+
+
+/*------------------------ media qurey ---------------------------------*/
+
+@media only screen and (max-width:668px){
+  
+    header{
+        width: 375px;
+    }
+    .full-header{
+        width: 280px;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 15px;
+        margin-right: 16px;
+        margin-bottom: 0;
+    }
+    .head-left{
+        width: 278px;
+        margin-left: 0;
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; */
+        /* border: 1px rgb(9, 255, 0) solid; */
+    }
+    .head-title{
+        width: 278px;
+    }
+    .head-title h1{
+        font-size: 36px;
+    }
+    .button{
+        margin-top: 30px;
+        width: 168px;
+    }
+    .thead-thumbnial{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        /* border: solid 2px red; */
+    }
+    .thead-thumbnial img{
+        width: 329px;
+        margin-bottom: 0;
+
+    }
+
+
+   /* --------------all player --------- */
+   main{
+       margin-bottom: 0;
+   }
+ .all-plyars{
+    width: 330px;
+     margin-top: 0;
+     /* display: flex;
+     flex-direction: column;
+     align-items: center; */
+     
+ }
+ 
+ .players{
+     
+     grid-template-columns: repeat(1,1fr);
+
+     /* display: flex;
+     flex-direction: column;
+     align-items: center; */
+ }
+   
+    
+     
+
+ }
+ .player{
+     margin-bottom: 24px;
+     width: 330px;
+ }
+
+
+
+     /* --------------footer section --------*/
+
+    footer{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-top: 30px;
+    }
+
+    .footer-section{
+         width: 90%;
+
+    }
+
+    .footer-image img{
+         width: 270px;
+     }
+
+ 
+
+
+}
+
+
+@media only screen and (min-width: 688px) and (max-width: 992px){
+
+}
