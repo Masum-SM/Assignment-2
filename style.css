@@ -104,7 +104,7 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 30px;
+    /* grid-column-gap: 10px; */
 }
 .player{
     width: 330px;
@@ -153,7 +153,7 @@ main{
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 28px;
+    /* grid-column-gap: 28px; */
 }
 .vote-plyer{
     width: 330px;
@@ -405,5 +405,100 @@ footer{
 
 
 @media only screen and (min-width: 688px) and (max-width: 992px){
+    header{
+        width: 900px;
+    }
+    .full-header{
+        width: 900px;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 15px;
+        margin-right: 16px;
+        margin-bottom: 0;
+    }
+    .head-left{
+        width: 400px;
+        margin-left: 0;
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; */
+        /* border: 1px rgb(9, 255, 0) solid; */
+    }
+    .head-title{
+        width: 90%;
+    }
+    .head-title h1{
+        font-size: 36px;
+    }
+    .button{
+        margin-top: 30px;
+        width: 168px;
+    }
+   
+    .thead-thumbnial{
+        width: 400px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        /* border: solid 2px red; */
+    }
+    .thead-thumbnial img{
+        width: 350px;
+        margin-bottom: 0;
+
+    }
+
+    .all-plyars{
+        width: 330px;
+         margin-top: 0;
+          display: flex;
+         flex-direction: column;
+         align-items: center; 
+         
+     }
+     
+     .players{
+         
+         grid-template-columns: repeat(2,1fr);
+    
+         /* display: flex;
+         flex-direction: column;
+         align-items: center; */
+     }
+       
+        
+         
+    
+     
+     .player{
+         margin-bottom: 24px;
+         width: 330px;
+     }
+    
+
+     
+     .vote-section{
+        width: 320px;
+    }
+  
+    .vote-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .vote-plyer{
+        width: 320px;
+        margin-top: 15px;
+    }
+  
+    .form{
+        margin-bottom: 30px;
+    }
+    .video{
+        width: 100%;
+     }
+      .video-container{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+      }
+     
 
 }
